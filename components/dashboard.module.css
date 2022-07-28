@@ -1,0 +1,231 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #DF6565;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+
+.container_break{
+    background-color: #71c2c5;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+
+  .container_longbreak{
+    background-color: #5eb98f;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+
+.timerDashboard{
+    color: white;
+    font-family: Helvetica;
+}
+
+.taskDiv{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+.taskitemdiv{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.formInput{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* padding: 5px 60px; */
+    width: 200px;
+    margin-right: 5px;
+    border-style: none;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+}
+
+.formInput_edit{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* padding: 5px 60px; */
+    width: 200px;
+    margin-right: 5px;
+    border-style: none;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+}
+
+.formSubmitButton{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: lighter;
+    padding: 8px 24px;
+
+}
+
+.formSubmitButton:hover {
+    background-color: #ffffff;
+    color:#DF6565;
+  }
+
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.timerDashboard h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.timerDashboard h1 {
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 30px;
+
+}
+
+  
+.timerButtons button{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.divider{
+    width:60%;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+
+.taskContainer{
+    color: white;
+    /* background-color: black; */
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    /* text-align: left; */
+    /* margin-left: 10%; */
+}
+
+.taskList{
+    margin-top: 40px;
+}
+
+.taskrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+      rgb(241, 149, 133) 0%,
+      rgb(255, 132, 115) 100%
+    );
+  
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+  }
+
+.taskrow_complete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+      rgb(119, 119, 119) 0%,
+      rgb(119, 119, 119) 100%
+    );
+    
+    text-decoration: line-through;
+    opacity: 0.4;
+      
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .container{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+
+.timerDashboard h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 30px;
+
+}
+  }
